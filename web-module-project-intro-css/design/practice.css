@@ -1,0 +1,79 @@
+/* html { background-color: #000; } 
+body {
+    min-height: 100vh;
+    max-width: 1200px;
+    background-color: papayawhip; 
+    margin: auto;
+} */
+
+/* @import url(https://fonts.googleapis.com/css?family=Roboto); */
+
+/* body {
+    max-width: 900px; 
+    margin: auto; 
+    color: rgb(39, 39, 39);
+  }
+
+* {
+  font-family: 'Roboto';
+  border: 2px solid grey;
+  text-decoration: none;
+  box-sizing: border-box;
+  background-color: #d4d4d4;
+  max-width 100%;
+  text-align: center;
+}
+
+a {
+color: rgb(39, 39, 39);
+} */
+
+/* JUST A COMMON USED SET UP BELOW */
+/* wrap can fuck things up */
+/* .container {
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-evenly;
+    border: 2px solid fuchsia;
+    width: 100%;
+} */
+
+/* also put margins, padding, & font, etc like: */
+/* flex: 2;
+padding: 4%;
+margin-top: 5%; */
+
+/* @@@@@@@@@@@@@@@@@@ CSS BELOW @@@@@@@@@@@@@@@@@@ */
+
+.container {
+  display: flex;
+  /* flex-wrap: wrap; */
+  border: 2px solid fuchsia;
+  padding: 1%;
+}
+
+.container div {
+  border: 1px solid red;
+  padding: 10px;
+  margin: 1%;
+  flex-wrap: wrap;
+}
+
+.boxes {
+  flex: 1;
+}
+
+/* THIS MAKES EACH BOX THE SAME WIDTH! */
+/* .box-1 {
+    flex: 1;
+}
+
+.box-2 {
+    flex: 1;
+}
+
+.box-3 {
+    flex: 1;
+} */
